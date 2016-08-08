@@ -1,0 +1,10 @@
+
+Dynamically Adding/Removing Objects, Timer and Key Down Events, and Collision
+ 
+Modify the basic code structure we covered in the lecture to make a customized game of Snake.  If you are unable to attend the class, you can get the starting code from the Course Content in the Portal.
+ 
+We will continue to build on this lab next class.
+ 
+Include comments in the code-behind!
+ 
+ZIP and Upload the entire SOLUTION to the Portal.  Retain for future labs and exams!

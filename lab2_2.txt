@@ -1,0 +1,13 @@
+
+More WPF and XAML
+Modify the previous lab by adding an Oval to the Canvas to the right of the Expaders/StackPanels you had previously.  You may have to increase the size of your Window and Canvas controls based on how much space you set aside previously.
+ 
+Add a new Expander to the original set of Expanders.  Add a new StackPanel and inside it, add a new Slider control.  Make sure the Slider’s initial starting position is at 0 (left side).   Wire-up the Slider’s event so that it changes the size of the Oval based on the direction of sliding.  Fill in the Oval using the Fill color of the Rectangle from last lab.
+ 
+On top of the Oval, add a new InkCanvas control where “a face” could be drawn on the Oval.  We will allow the user to freely edit the InkCanvas.  Place a new Button somewhere in the right side (under the Oval, at the bottom of the screen) that will let the user “Clear” the InkCanvas.  Play a sound whenever the Clear button is pressed.
+ 
+Get Creative!!   Can you figure out a way to incorporate either the length and width or the difficulty dropdown with the right-side objects?
+ 
+Include comments in the code-behind!
+ 
+ZIP and Upload the entire SOLUTION to the Portal.  Retain for future labs and exams!

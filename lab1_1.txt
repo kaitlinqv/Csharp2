@@ -1,0 +1,26 @@
+
+Inheritance with C#
+
+Create a Console Application and do the following:
+ 
+First, add a Class that describes a Point object.  The members are x, y (int).  Provide both a full and base Constructor, Property methods (get/set) and a public display() method that returns a string with a formatted output of “(x,y)”.  Be sure to keep the class “generic” enough so it can be used anywhere (so no Console stuff!).
+ 
+Next, add a Class that describes a Line object.  The members are 2 Point objects.  Again, provide all methods.  The public display() method for the Line (returns a string) should use the Point’s display methods and then concatenate onto that the length of the Line.  Find the length by calling a protected calcLength() method that returns an int (so you have to convert this to a String before using it in a concatenation).  The units are in pixels.
+ 
+Distance Formula:    Square root of [ (x2 – x1)2  + (y2 – y1)2 ]    
+                       // to do the square root, use Math.Sqrt()   
+                       // to do the power, use Math.Pow()
+ 
+Now, add a Class that describes a StraightLine object.  This should extend or inherit from the base class Line. The Line class members can be set to protected or remain private (your design choice).  Add a 2 members to the StraightLine class called length (int) and direction (int). Provide only the required methods and do not allow values below 0 or above 50 for length.  Direction should only take values 0 – 3… where 0 = up, 1 = right, 2 = down, and 3 = left.  
+ 
+Add a new private method called determinePoint2() that uses the length and direction provided to create the 2nd Point object.  Do this by Adding or Subtracting the length from either the x1 or y1 value of the first point.  The other value will remain the same (so if solve for x2, then y2 will be equal to y1.   If you solve for y2, then x2 = x1).
+ 
+StraighLine needs to continue using the parent (Line) object’s display() method (do not override it!).
+ 
+Back in Main(), prompt the user to enter 6 integer values x1, y1,  x2, y2, length and direction (0-3).  Make a new Line and display it.  Then, using only the x1, y1, length and direction, make a StrightLine and display that.  Use loops in Main() and proper Exception Handling throughout your application (in Main and in the setters)! 
+ 
+  NOTE: There is an issue in the design of the derived class.  The full constructor for the StraightLine takes only 1 point, but the base full constructor requires 2 points.   How would you still be able to call the base constructor in the derived class constructor?  Think about it.
+ 
+Include comments!!  Don’t forget to add detailed comments before each function!!
+ 
+ZIP and Upload the entire SOLUTION to the Portal.  Retain for future labs and exams!

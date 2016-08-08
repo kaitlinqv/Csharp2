@@ -1,0 +1,8 @@
+
+Introduction to Generics and Data Structures
+ 
+Create a new Console Application and copy the code from the book on pages 793 – 794.
+ 
+Next, do Exercise 8 on page 812 (Overloading Generic Methods).
+ 
+ZIP and Upload the entire SOLUTION to the Portal.  Retain for future labs and exams!

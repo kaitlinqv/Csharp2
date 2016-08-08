@@ -1,0 +1,20 @@
+Enum, Polymorphism, and Operator Overriding
+
+Modify the program from Lab 1-1 by making these changes:
+ 
+First, add a private Enumerator (enum) to the StraightLine class called dirEnum and setup its values 0-3 with the actual directions UP, RIGHT, DOWN, LEFT.  Do not provide any other methods for the enum.  
+  Modify the determinePoint2() method to use the enum in your switch or if-else if statement instead of direction (you will need to cast the direction variable as a dirEnum before you can compare it to the enum values). 
+Create an overload for the plus (+) operator in the Line class.  It should take 2 line objects as input and return their combined values as a new line that starts at the start of the 1st line and ends at the ending of the 2nd line:    New Line = P1 from Line1 and P2 from Line2
+ 
+This may not be a valid “adding” of 2 lines, but it will illustrate the use of operator overloading (which is powerful for working with Classes!).
+ 
+Add a subtraction (-) overload as well.  How would you do this?   You be the designer.
+ 
+Add code to the Main() program to test out your new operators by adding a Straight Line to a Line and subtracting a Straight Line from a Line (you should have one of each type of line from the previous lab).   
+ 
+NOTE:  Polymorphism is allowing us to make the Straight Line into a Line (as a Straight Line “is a” Line).   If we added the operator overloading to the Straight Line instead of the Line class, would there still be this polymorphic behavior? 
+  Finally, figure out how you could convert your Line class into an Abstract class and also change the Straight Line class so that it can still work   with the new abstract base class.
+
+  Include comments in all sections and comment out any old code in your main program that you no longer need instead of deleting!!
+ 
+ZIP and Upload the entire SOLUTION to the Portal.  Retain for future labs and exams!

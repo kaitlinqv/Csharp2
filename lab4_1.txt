@@ -1,0 +1,7 @@
+Using Classes with WPF
+ 
+Modify the Snake game from the previous lab by moving code from the Main XAML into traditional Classes.  You will need to determine what classes you should have.  Thinking through it on paper using UML Class Diagrams is a good way to begin the process.
+ 
+Include comments in the Classes and code-behind!
+ 
+ZIP and Upload the entire SOLUTION to the Portal.  Retain for future labs and exams!

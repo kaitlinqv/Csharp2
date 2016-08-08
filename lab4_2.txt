@@ -1,0 +1,15 @@
+
+Pig Latin Converter and String Class Methods
+ 
+Make a new WPF application that has a TextBox for the user to enter a sentence (limit the max length of the input to 255).  Be sure to use a label with the box.   Add a Button that will RUN the converter.  Finally, include a second TextBox to display the results of the Conversion.  Make this 2nd textbox read-only.
+ 
+For both TextBoxes, make them multi-line and wrap the text.  Refer to the following link for help:
+http://vbcity.com/blogs/xtab/archive/2010/08/30/wpf-textbox-some-hints-and-tips.aspx
+ 
+When the RUN button is pressed, convert the user’s sentence into the Pig Latin version and display it back to them in the second textbox.
+ 
+How does Pig Latin work?  Look at Exercise 16.5 on page 667.   You will need several String Methods to do the conversion and new string building (so, use a String Builder!).
+ 
+Include comments in the Classes and code-behind!
+ 
+ZIP and Upload the entire SOLUTION to the Portal.  Retain for future labs and exams!
